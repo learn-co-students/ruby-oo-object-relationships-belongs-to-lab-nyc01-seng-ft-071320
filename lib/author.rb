@@ -2,9 +2,8 @@ require 'pry'
 
 class Author
     attr_accessor :name
-    attr_reader
 
-    def initialization(name)
+    def initialize
         @name = name
     end
 

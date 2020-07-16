@@ -3,7 +3,7 @@ require 'pry'
 class Artist
     attr_accessor :name
 
-    def initialization(name)
+    def initialize
         @name = name
     end
 

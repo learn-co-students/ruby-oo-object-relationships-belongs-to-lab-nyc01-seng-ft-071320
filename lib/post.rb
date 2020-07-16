@@ -2,9 +2,8 @@ require 'pry'
 
 class Post
     attr_accessor :title, :author
-    attr_reader
 
-    def initialization(title, author)
+    def initialize
         @title = title
         @author = author
     end
