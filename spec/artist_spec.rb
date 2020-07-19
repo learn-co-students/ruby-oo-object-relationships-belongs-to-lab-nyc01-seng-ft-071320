@@ -6,4 +6,5 @@ describe "Artist" do
     artist.name = "Beyonce" 
     expect(artist.name).to eq("Beyonce")
   end
+   
 end
